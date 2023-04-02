@@ -283,7 +283,7 @@ Keyword arguments:
 
 - size (a value equal to: 'small', 'default', 'large'; default 'default')
 
-- sortOptions (dict; default {    sortDataIndexes: []})
+- sortOptions (dict; default {    sortDataIndexes: []})
 
     `sortOptions` is a dict with keys:
 
@@ -335,9 +335,6 @@ Keyword arguments:
         _explicit_args = kwargs.pop('_explicit_args')
         _locals = locals()
         _locals.update(kwargs)  # For wildcard attrs and excess named props
-        args = {k: _locals[k] for k in _explicit_args if k != 'children'}
-        for k in []:
-            if k not in args:
-                raise TypeError(
-                    'Required argument `' + k + '` was not specified.')
+        args = {k: _locals[k] for k in _explicit_args}
+
         super(AntdTable, self).__init__(**args)

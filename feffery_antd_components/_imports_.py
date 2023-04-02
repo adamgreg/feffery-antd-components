@@ -1,5 +1,3 @@
-from .AntdAccordion import AntdAccordion
-from .AntdAccordionItem import AntdAccordionItem
 from .AntdAffix import AntdAffix
 from .AntdAlert import AntdAlert
 from .AntdAnchor import AntdAnchor
@@ -54,14 +52,16 @@ from .AntdSteps import AntdSteps
 from .AntdSwitch import AntdSwitch
 from .AntdTable import AntdTable
 from .AntdTag import AntdTag
-from .AntdTimeline import AntdTimeline
 from .AntdTimePicker import AntdTimePicker
 from .AntdTimeRangePicker import AntdTimeRangePicker
+from .AntdTimeline import AntdTimeline
 from .AntdTooltip import AntdTooltip
 from .AntdTransfer import AntdTransfer
 from .AntdTree import AntdTree
 from .AntdTreeSelect import AntdTreeSelect
 from .AntdWatermark import AntdWatermark
+from .AntdAccordion import AntdAccordion
+from .AntdAccordionItem import AntdAccordionItem
 from .AntdCard import AntdCard
 from .AntdCardGrid import AntdCardGrid
 from .AntdCheckCard import AntdCheckCard
@@ -93,8 +93,6 @@ from .AntdPictureUpload import AntdPictureUpload
 from .AntdUpload import AntdUpload
 
 __all__ = [
-    "AntdAccordion",
-    "AntdAccordionItem",
     "AntdAffix",
     "AntdAlert",
     "AntdAnchor",
@@ -149,14 +147,16 @@ __all__ = [
     "AntdSwitch",
     "AntdTable",
     "AntdTag",
-    "AntdTimeline",
     "AntdTimePicker",
     "AntdTimeRangePicker",
+    "AntdTimeline",
     "AntdTooltip",
     "AntdTransfer",
     "AntdTree",
     "AntdTreeSelect",
     "AntdWatermark",
+    "AntdAccordion",
+    "AntdAccordionItem",
     "AntdCard",
     "AntdCardGrid",
     "AntdCheckCard",
